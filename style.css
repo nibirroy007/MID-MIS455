@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
     background-color: #4CAF50;
     padding: 20px;
@@ -25,7 +25,7 @@ header {
     margin-bottom: 10px;
 }
 
-/* Navigation */
+
 nav {
     margin-top: 10px;
 }
@@ -52,16 +52,16 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
-/* Footer */
+
 footer {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
 }
 
-/* Home Flex Section */
+
 .home-flex {
     display: flex;
     justify-content: space-around;
@@ -83,7 +83,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Product Grid Section (Side by Side) */
+
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +131,7 @@ footer {
     font-size: 16px;
 }
 
-/* Contact Form */
+
 .contact-form {
     max-width: 600px;
     margin: 30px auto;
@@ -167,7 +167,7 @@ footer {
     background-color: #45a049;
 }
 
-/* Buttons */
+
 button {
     background-color: #4CAF50;
     color: white;
@@ -184,7 +184,7 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .product-card {
         width: 90%;
